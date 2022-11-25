@@ -7,7 +7,7 @@ using Xunit;
 
 namespace ptalform_clr.parallel
 {
-    public class Tasks
+    public class Task1
     {
         int iteraion = 1000;
         private static object _lock =new object();
@@ -49,7 +49,7 @@ namespace ptalform_clr.parallel
             });
             Console.WriteLine($"count:{count} iteraion:{iteraion}");
         }
-
+      
         #endregion
     }
 }

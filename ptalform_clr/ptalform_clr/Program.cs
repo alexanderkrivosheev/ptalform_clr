@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using ptalform_clr.parallel;
+using ptalform_clr.runtime;
 
 Console.WriteLine("Hello, World!");
-Tasks tasks = new Tasks();
+Task2 tasks = new Task2();
 tasks.Main();
+
+Console.ReadLine();
+
