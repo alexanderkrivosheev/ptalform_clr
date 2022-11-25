@@ -24,11 +24,11 @@ namespace ptalform_clr.runtime
         {
             public static int TestValue = -1;
 
-            public ClassA()
+            public ClassA(int value)
             {
                 if (TestValue == 0)
                 {
-                    TestValue = 5;
+                    TestValue = value;
                 }
             }
             static ClassA()
@@ -51,7 +51,7 @@ namespace ptalform_clr.runtime
                 }
             }
 
-            public ClassB(int value)
+            public ClassB(int value):base(4)
             {
                 if (TestValue == 0)
                 {
