@@ -1,0 +1,8 @@
+// Validating benchmarks:
+//    * Assembly ptalform_clr which defines benchmarks is non-optimized
+Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+If you want to debug the benchmarks, please see https://benchmarkdotnet.org/articles/guides/troubleshooting.html#debugging-benchmarks.
+
+// Benchmark Yield_WithNoYield.GetAllWitYieldIEnumerable: DefaultJob
+//    * Benchmark Yield_WithNoYield.GetAllWitYieldIEnumerable returns a deferred execution result (IEnumerable<Int32>). You need to either change the method declaration to return a materialized result or consume it on your own. You can use .Consume() extension method to do that.
+
