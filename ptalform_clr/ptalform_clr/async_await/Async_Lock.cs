@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Attributes;
 
-namespace ptalform_clr.statements
+namespace ptalform_clr.async_await
 {
     [MemoryDiagnoser]
     public class Async_Lock
