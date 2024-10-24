@@ -12,7 +12,7 @@ namespace ptalform_clr.async_await
             lock (_lock)
             {
                 // Your asynchronous code here
-                //await SomeAsyncOperation();
+                await SomeAsyncOperation();
             }
         }
 

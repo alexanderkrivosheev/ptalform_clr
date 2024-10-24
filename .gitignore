@@ -4,3 +4,5 @@
 
 /ptalform_clr/ptalform_clr/obj
 /ptalform_clr/.vs/ptalform_clr/v17
+*.bin
+*.vsidx
